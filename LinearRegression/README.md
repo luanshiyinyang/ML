@@ -105,5 +105,5 @@ $$
 
 ## 补充说明
 - 本文简单叙述了线性回归这一回归模型的简单思想，思路参照吴恩达的机器学习课程（Coursera）。
-- - 本系列相关的博文和代码开放于Github，欢迎访问[项目](https://github.com/luanshiyinyang/ML)。同时博客也同步在我的[个人博客网站](https://luanshiyinyang.github.io)，欢迎访问查看其他文章。
+- 本系列相关的博文和代码开放于Github，欢迎访问[项目](https://github.com/luanshiyinyang/ML)。同时博客也同步在我的[个人博客网站](https://luanshiyinyang.github.io)，欢迎访问查看其他文章。
 - 由于能力有限，如有错误，欢迎评论指正。
