@@ -81,7 +81,7 @@ $$
 J(\theta)=\frac{1}{2 m}\left[\sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)^{2}+\lambda \sum_{j=1}^{n} \theta_{j}^{2}\right]
 $$
 
-这样，梯度下降的更新公式如下，$\theta_{0}是不需要惩罚的$。
+这样，梯度下降的更新公式如下，$\theta_{0}$是不需要惩罚的。
 $$
 \theta_{0}=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) x_{0}^{(i)}
 $$
