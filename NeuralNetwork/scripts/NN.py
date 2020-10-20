@@ -20,7 +20,7 @@ def sigmoid_grad(x):
 
 def one_hot(x):
     array = np.zeros(shape=[10, 1])
-    array[x-1, 0] = 1
+    array[x, 0] = 1
     return array
 
 
@@ -125,7 +125,8 @@ class BPNet(object):
 if __name__ == '__main__':
     data = scio.loadmat('../data/ex3data1.mat')  # 读取数据集
     pretrained_weights = scio.loadmat('../data/ex3weights.mat')  # 读取预训练参数
-    X, y = data['X'], data['y']  # 按照索引取出data和label
+    X, y = data['X'], data['y']  # 按照索引取出data和label(已经one_hot)
+    print(X.shape, y.shape)
     y = LabelBinarizer().fit_transform(y)
     w_hidden, w_output = pretrained_weights['Theta1'], pretrained_weights['Theta2']
     # 构建模型
